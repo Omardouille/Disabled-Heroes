@@ -4,112 +4,112 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6128299156075563123
-    second: WalkLeft0
+    second: Hero_Walk_Left_0
   - first:
       213: 3386662938922423588
-    second: WalkLeft1
+    second: Hero_Walk_Left_1
   - first:
       213: -6110656803992641779
-    second: WalkLeft2
+    second: Hero_Walk_Left_2
   - first:
       213: 8553092956536608252
-    second: WalkLeft3
+    second: Hero_Walk_Left_3
   - first:
       213: 6708733205153277002
-    second: WalkLeft4
+    second: Hero_Walk_Left_4
   - first:
       213: 6813553822765877458
-    second: FallDownLeft3
+    second: sprites_5
   - first:
       213: -5082647686934749709
-    second: FallDownLeft2
+    second: sprites_6
   - first:
       213: -2423230811885516303
-    second: FallDownLeft1
+    second: sprites_7
   - first:
       213: 1211998406744890917
-    second: FallDownLeft0
+    second: sprites_8
   - first:
       213: 6155212226941906339
-    second: WalkRight0
+    second: Hero_Walk_Right_0
   - first:
       213: -2950032572879587788
-    second: WalkRight1
+    second: Hero_Walk_Right_1
   - first:
       213: -7263262467203474343
-    second: WalkRight2
+    second: Hero_Walk_Right_2
   - first:
       213: 7010617245534139418
-    second: WalkRight3
+    second: Hero_Walk_Right_3
   - first:
       213: -7039003182478323700
-    second: WalkRight4
+    second: Hero_Walk_Right_4
   - first:
       213: -5559150632450785296
-    second: FallDownRight3
+    second: sprites_14
   - first:
       213: -8987557684774062561
-    second: FallDownRight2
+    second: sprites_15
   - first:
       213: -6751597515445260605
-    second: FallDownRight1
+    second: sprites_16
   - first:
       213: 5182299067807867188
-    second: FallDownRight0
+    second: sprites_17
   - first:
       213: -2408033011751398356
-    second: WalkFront0
+    second: Hero_Walk_Front_0
   - first:
       213: -5717795354444781658
-    second: WalkFront1
+    second: Hero_Walk_Front_1
   - first:
       213: -1722539767903399326
-    second: WalkFront2
+    second: Hero_Walk_Front_2
   - first:
       213: -2018968827443427868
-    second: Idle
+    second: sprites_21
   - first:
       213: 3950689983899740486
-    second: WaveLeft4
+    second: sprites_22
   - first:
       213: -3525548655422949061
-    second: WaveLeft3
+    second: sprites_23
   - first:
       213: -577312649904740640
-    second: WaveLeft2
+    second: sprites_24
   - first:
       213: -3114738102144766914
-    second: WaveLeft1
+    second: sprites_25
   - first:
       213: 4172163778452043772
-    second: WaveLeft0
+    second: sprites_26
   - first:
       213: 2414474533063011785
-    second: WalkBack0
+    second: Hero_Walk_Back_0
   - first:
       213: 7829124088692640654
-    second: WalkBack1
+    second: Hero_Walk_Back_1
   - first:
       213: -8000517053470610818
-    second: WalkBack2
+    second: Hero_Walk_Back_2
   - first:
       213: 3864339640949227112
-    second: WaveRight05
+    second: sprites_30
   - first:
       213: -1369878811986984067
-    second: WaveRight4
+    second: sprites_31
   - first:
       213: 2737844872717370115
-    second: WaveRight3
+    second: sprites_32
   - first:
       213: -4056437433907239288
-    second: WaveRight2
+    second: sprites_33
   - first:
       213: -5647778350772032766
-    second: WaveRight1
+    second: sprites_34
   - first:
       213: 286243765835191086
-    second: WaveRight0
+    second: sprites_35
   - first:
       213: -5113350760131414088
     second: sprites_36
@@ -121,22 +121,22 @@ TextureImporter:
     second: sprites_38
   - first:
       213: -6038895966588477023
-    second: WaveLeft5
+    second: sprites_39
   - first:
       213: 2527441650270232441
-    second: WaveLeftM4
+    second: sprites_40
   - first:
       213: 5163875854333359583
-    second: WaveLeftM3
+    second: sprites_41
   - first:
       213: -7573515227342601164
-    second: WaveLeftM2
+    second: sprites_42
   - first:
       213: -8643503263307243172
-    second: WaveLeftM1
+    second: sprites_43
   - first:
       213: 5888225539240422257
-    second: WaveLeftM0
+    second: sprites_44
   - first:
       213: -5414200790786512658
     second: sprites_45
@@ -148,19 +148,19 @@ TextureImporter:
     second: sprites_47
   - first:
       213: -3286353352431079860
-    second: WaveRightM4
+    second: sprites_48
   - first:
       213: -3333306228155105222
-    second: WaveRightM3
+    second: sprites_49
   - first:
       213: -8024298897280758709
-    second: WaveRightM2
+    second: sprites_50
   - first:
       213: -987594996878273913
-    second: WaveRightM1
+    second: sprites_51
   - first:
       213: -3244309331689365813
-    second: WaveRightM0
+    second: sprites_52
   - first:
       213: -1993646571332382099
     second: sprites_53
@@ -217,7 +217,7 @@ TextureImporter:
     second: sprites_70
   - first:
       213: 7286473914490883674
-    second: SportLeft0
+    second: sprites_71
   - first:
       213: 2610982374439609670
     second: sprites_72
@@ -439,7 +439,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -450,8 +450,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -462,12 +461,11 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkLeft0
+      name: Hero_Walk_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -488,7 +486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkLeft1
+      name: Hero_Walk_Left_1
       rect:
         serializedVersion: 2
         x: 48
@@ -509,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkLeft2
+      name: Hero_Walk_Left_2
       rect:
         serializedVersion: 2
         x: 96
@@ -530,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkLeft3
+      name: Hero_Walk_Left_3
       rect:
         serializedVersion: 2
         x: 144
@@ -551,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkLeft4
+      name: Hero_Walk_Left_4
       rect:
         serializedVersion: 2
         x: 192
@@ -572,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownLeft3
+      name: sprites_5
       rect:
         serializedVersion: 2
         x: 240
@@ -593,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownLeft2
+      name: sprites_6
       rect:
         serializedVersion: 2
         x: 288
@@ -614,7 +612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownLeft1
+      name: sprites_7
       rect:
         serializedVersion: 2
         x: 336
@@ -635,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownLeft0
+      name: sprites_8
       rect:
         serializedVersion: 2
         x: 384
@@ -656,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkRight0
+      name: Hero_Walk_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -677,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkRight1
+      name: Hero_Walk_Right_1
       rect:
         serializedVersion: 2
         x: 48
@@ -698,7 +696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkRight2
+      name: Hero_Walk_Right_2
       rect:
         serializedVersion: 2
         x: 96
@@ -719,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkRight3
+      name: Hero_Walk_Right_3
       rect:
         serializedVersion: 2
         x: 144
@@ -740,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkRight4
+      name: Hero_Walk_Right_4
       rect:
         serializedVersion: 2
         x: 192
@@ -761,7 +759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownRight3
+      name: sprites_14
       rect:
         serializedVersion: 2
         x: 240
@@ -782,7 +780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownRight2
+      name: sprites_15
       rect:
         serializedVersion: 2
         x: 288
@@ -803,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownRight1
+      name: sprites_16
       rect:
         serializedVersion: 2
         x: 336
@@ -824,7 +822,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallDownRight0
+      name: sprites_17
       rect:
         serializedVersion: 2
         x: 384
@@ -845,7 +843,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkFront0
+      name: Hero_Walk_Front_0
       rect:
         serializedVersion: 2
         x: 0
@@ -866,7 +864,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkFront1
+      name: Hero_Walk_Front_1
       rect:
         serializedVersion: 2
         x: 48
@@ -887,7 +885,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkFront2
+      name: Hero_Walk_Front_2
       rect:
         serializedVersion: 2
         x: 96
@@ -908,7 +906,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle
+      name: sprites_21
       rect:
         serializedVersion: 2
         x: 144
@@ -929,7 +927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft4
+      name: sprites_22
       rect:
         serializedVersion: 2
         x: 192
@@ -950,7 +948,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft3
+      name: sprites_23
       rect:
         serializedVersion: 2
         x: 240
@@ -971,7 +969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft2
+      name: sprites_24
       rect:
         serializedVersion: 2
         x: 288
@@ -992,7 +990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft1
+      name: sprites_25
       rect:
         serializedVersion: 2
         x: 336
@@ -1013,7 +1011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft0
+      name: sprites_26
       rect:
         serializedVersion: 2
         x: 384
@@ -1034,7 +1032,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack0
+      name: Hero_Walk_Back_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1055,7 +1053,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack1
+      name: Hero_Walk_Back_1
       rect:
         serializedVersion: 2
         x: 48
@@ -1076,7 +1074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack2
+      name: Hero_Walk_Back_2
       rect:
         serializedVersion: 2
         x: 96
@@ -1097,7 +1095,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight05
+      name: sprites_30
       rect:
         serializedVersion: 2
         x: 144
@@ -1118,7 +1116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight4
+      name: sprites_31
       rect:
         serializedVersion: 2
         x: 192
@@ -1139,7 +1137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight3
+      name: sprites_32
       rect:
         serializedVersion: 2
         x: 240
@@ -1160,7 +1158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight2
+      name: sprites_33
       rect:
         serializedVersion: 2
         x: 288
@@ -1181,7 +1179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight1
+      name: sprites_34
       rect:
         serializedVersion: 2
         x: 336
@@ -1202,7 +1200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRight0
+      name: sprites_35
       rect:
         serializedVersion: 2
         x: 384
@@ -1286,7 +1284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeft5
+      name: sprites_39
       rect:
         serializedVersion: 2
         x: 144
@@ -1307,7 +1305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeftM4
+      name: sprites_40
       rect:
         serializedVersion: 2
         x: 192
@@ -1328,7 +1326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeftM3
+      name: sprites_41
       rect:
         serializedVersion: 2
         x: 240
@@ -1349,7 +1347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeftM2
+      name: sprites_42
       rect:
         serializedVersion: 2
         x: 288
@@ -1370,7 +1368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeftM1
+      name: sprites_43
       rect:
         serializedVersion: 2
         x: 336
@@ -1391,7 +1389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveLeftM0
+      name: sprites_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1475,7 +1473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRightM4
+      name: sprites_48
       rect:
         serializedVersion: 2
         x: 192
@@ -1496,7 +1494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRightM3
+      name: sprites_49
       rect:
         serializedVersion: 2
         x: 240
@@ -1517,7 +1515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRightM2
+      name: sprites_50
       rect:
         serializedVersion: 2
         x: 288
@@ -1538,7 +1536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRightM1
+      name: sprites_51
       rect:
         serializedVersion: 2
         x: 336
@@ -1559,7 +1557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WaveRightM0
+      name: sprites_52
       rect:
         serializedVersion: 2
         x: 384
@@ -1958,7 +1956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SportLeft0
+      name: sprites_71
       rect:
         serializedVersion: 2
         x: 0

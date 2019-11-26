@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -40,13 +41,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 137035199
-    locked: 0
-  - name: Npc
-    uniqueID: 743094459
-    locked: 0
-  - name: Player
-    uniqueID: 3169508015
     locked: 0
