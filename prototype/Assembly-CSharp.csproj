@@ -109,6 +109,8 @@
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\SpriteUIElement.cs" />
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\TranslationAnimation.cs" />
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\UserInterfaceAudio.cs" />
+    <Compile Include="Assets\Rotate.cs" />
+    <Compile Include="Assets\scriptest.cs" />
     <Compile Include="Assets\Scripts\DHBois.cs" />
     <Compile Include="Assets\Scripts\DHCollectableItem.cs" />
     <Compile Include="Assets\Scripts\DHHakimController.cs" />

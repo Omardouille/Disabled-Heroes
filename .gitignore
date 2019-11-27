@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-prototype/[Ll]ibrary/
-prototype/[Tt]emp/
-prototype/[Oo]bj/
-prototype/[Bb]uild/
-prototype/[Bb]uilds/
-prototype/[Ll]ogs/
-prototype/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -57,3 +57,9 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+prototype/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+prototype/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+prototype/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+prototype/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+prototype/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+prototype/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
