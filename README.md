@@ -1,3 +1,3 @@
 # ProjetH
-Jeux sérieux
-Version Unity : 2019.1
+Jeux serieux
+Version Unity : 2019.2
