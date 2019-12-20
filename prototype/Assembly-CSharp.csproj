@@ -124,8 +124,10 @@
     <Compile Include="Assets\Scripts\DHMarchalController.cs" />
     <Compile Include="Assets\Scripts\DHPotSmall.cs" />
     <Compile Include="Assets\Scripts\DHPotTall.cs" />
+    <Compile Include="Assets\Scripts\Fading.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PushAndPullObject.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Creator Kit - RPG\Scripts\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -145,7 +147,6 @@
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\CreatorKitRPG_Third-PartyNotice.txt" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Sprites\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
