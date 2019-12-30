@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d87d36d0-20ad-4f2e-9c37-b85404d83cc0}">
+		<property name="assetPath">
+			<value>drop.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>21.384</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{985a8753-3898-47a7-9250-13af441b680d}</destination>
+		</relationship>
+	</object>
+</objects>
