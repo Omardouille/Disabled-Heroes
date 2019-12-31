@@ -48,7 +48,7 @@ public class DHMarchalController : MonoBehaviour
         animator.SetFloat("speed", m_movement.sqrMagnitude);
         animator.SetFloat("horizontal", m_movement.x);
         animator.SetFloat("vertical", m_movement.y);
-        Debug.Log(m_movement.sqrMagnitude);
+        //Debug.Log(m_movement.sqrMagnitude);
     }
 
     void FixedUpdate()
