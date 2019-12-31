@@ -22,6 +22,10 @@ public class EnemiBehavior : MonoBehaviour
         currentDirection = (float)0;
         rb = GetComponent<Rigidbody2D>();
         playerFollow = null;
+        GetComponents<FMODUnity.StudioEventEmitter>()[0].SetParameter("Silence", 0);
+        // On lui donne un pitch aléatoire comme ça ça fait un peu que chaque ennemi à son son
+        GetComponents<FMODUnity.StudioEventEmitter>()[0].SetParameter("pitch", Random.Range(0f, 1.0f));
+        GetComponents<FMODUnity.StudioEventEmitter>()[0].Play();
 
     }
 
@@ -100,5 +104,10 @@ public class EnemiBehavior : MonoBehaviour
             Debug.Log("Le joueur est dead");
         }
         changeDirection(); 
+    }
+
+    public void OnDestroy()
+    {
+        GetComponents<FMODUnity.StudioEventEmitter>()[0].Stop();
     }
 }
