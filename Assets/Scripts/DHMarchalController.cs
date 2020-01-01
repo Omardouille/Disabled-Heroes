@@ -45,6 +45,10 @@ public class DHMarchalController : MonoBehaviour
 
         m_movement.x = Input.GetAxisRaw("Horizontal");
         m_movement.y = Input.GetAxisRaw("Vertical");
+        if (m_movement.x != 0 || m_movement.y != 0)
+            GetComponents<FMODUnity.StudioEventEmitter>()[1].SetParameter("Silence", 0);
+        else
+            GetComponents<FMODUnity.StudioEventEmitter>()[1].SetParameter("Silence", 1);
         animator.SetFloat("speed", m_movement.sqrMagnitude);
         animator.SetFloat("horizontal", m_movement.x);
         animator.SetFloat("vertical", m_movement.y);
