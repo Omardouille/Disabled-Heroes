@@ -58,7 +58,7 @@ public class EnemiBehavior : MonoBehaviour
         Vector3 movement = transform.position - oldPosition;
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        animator.SetFloat("Speed", 1);
 
         rb.MovePosition(transform.position);
     }
@@ -71,6 +71,10 @@ public class EnemiBehavior : MonoBehaviour
 
         Vector3 dir = -(this.transform.position - playerFollow.transform.position).normalized * speed * Time.fixedDeltaTime;
         
+        animator.SetFloat("Horizontal", dir.x);
+        animator.SetFloat("Vertical", dir.y);
+        animator.SetFloat("Speed", 1);
+
         rb.MovePosition(transform.position+dir);
 
     }
