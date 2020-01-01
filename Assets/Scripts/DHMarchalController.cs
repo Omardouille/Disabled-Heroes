@@ -70,7 +70,7 @@ public class DHMarchalController : MonoBehaviour
 
             m_item_to_pickup = item;
 
-            Hud.OpenMessagePanel("");
+            Hud.OpenMessagePanel("- F pour ramasser -");
         }
     }
 

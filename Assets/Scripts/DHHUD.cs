@@ -64,8 +64,9 @@ public class DHHUD : MonoBehaviour
 
     public void OpenMessagePanel(string text)
     {
+        Text txt = messagePanel.gameObject.transform.GetComponentInChildren<Text>();
+        txt.text = text;
         messagePanel.SetActive(true);
-        // TODO:: set text
     }
 
     public void CloseMessagePanel()
