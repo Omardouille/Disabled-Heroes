@@ -13,6 +13,7 @@ public class DHMarchalController : MonoBehaviour
     public DHHUD Hud;
     private IInventoryItem m_item_to_pickup = null;
     private bool m_lock_pickup = false;
+    public int nbvie = 3; // on a max 3 vie et après ça descend
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +54,21 @@ public class DHMarchalController : MonoBehaviour
         animator.SetFloat("horizontal", m_movement.x);
         animator.SetFloat("vertical", m_movement.y);
         //Debug.Log(m_movement.sqrMagnitude);
+
+        if(nbvie == 2)
+        {
+            transform.Find("jauge").gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
+        } else if(nbvie == 1)
+        {
+            transform.Find("jauge").gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+        else if(nbvie == 0)
+        {
+            Debug.Log("On est mort !");
+        } else
+        {
+            transform.Find("jauge").gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+        }
     }
 
     void FixedUpdate()

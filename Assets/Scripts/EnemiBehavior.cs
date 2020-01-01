@@ -113,7 +113,7 @@ public class EnemiBehavior : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            Debug.Log("Le joueur est dead");
+            GameObject.Find("Player").GetComponent<DHMarchalController>().nbvie--;
         }
         changeDirection(); 
     }
