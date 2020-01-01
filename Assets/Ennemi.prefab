@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 2579358296257223777}
   - component: {fileID: 2579358296257223782}
   - component: {fileID: 883832803494606509}
+  - component: {fileID: 7812246071486264112}
   m_Layer: 0
   m_Name: Ennemi
   m_TagString: Enemy
@@ -195,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8fe40658805cd4a888547a831a6be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 7812246071486264112}
   rb: {fileID: 0}
   speed: 2
 --- !u!114 &883832803494606509
@@ -220,3 +222,22 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!95 &7812246071486264112
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2579358296257223786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1248dc162b8d9b43966b407065a6e4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
