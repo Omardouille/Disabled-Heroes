@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3a858fc2-2909-40ea-8f56-9c751fc31697}">
+		<property name="assetPath">
+			<value>rire1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.0489795918367344</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{985a8753-3898-47a7-9250-13af441b680d}</destination>
+		</relationship>
+	</object>
+</objects>
