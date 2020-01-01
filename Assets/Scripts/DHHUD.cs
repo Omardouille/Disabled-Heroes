@@ -32,7 +32,7 @@ public class DHHUD : MonoBehaviour
                 image.sprite = e.Item.Image;
 
                 // store reference to the item
-                Debug.Log("Store reference to item :" + e.Item.Name);
+                //Debug.Log("Store reference to item :" + e.Item.Name);
                 itemDragHandler.Item = e.Item;
                 break;
             }
@@ -41,7 +41,7 @@ public class DHHUD : MonoBehaviour
 
     private void Inventory_ItemRemoved(object sender, InventoryEventsArgs e)
     {
-        Debug.Log("Inventory - Remove Item");
+        //Debug.Log("Inventory - Remove Item");
         Transform inventoryPanel = transform.Find("InventoryPanel");
         foreach (Transform slot in inventoryPanel)
         {
@@ -53,7 +53,7 @@ public class DHHUD : MonoBehaviour
             // we found the item in the ui
             if (itemDragHandler.Item.Equals(e.Item))
             {
-                Debug.Log("To drop");
+                //Debug.Log("To drop");
                 image.enabled = false;
                 image.sprite = null;
                 itemDragHandler.Item = null;
