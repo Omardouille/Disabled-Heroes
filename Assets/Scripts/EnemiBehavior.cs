@@ -8,6 +8,8 @@ public class EnemiBehavior : MonoBehaviour
     States currentState = States.Patrolling;
     float currentDirection = (float)0;
     GameObject playerFollow = null;
+    public Animator animator;
+
 
     public Rigidbody2D rb;
 
@@ -48,9 +50,15 @@ public class EnemiBehavior : MonoBehaviour
 
     private void patrol()
     {
+        Vector3 oldPosition = transform.position;
         this.transform.Rotate(0, 0, currentDirection);
         this.transform.Translate(0, speed * Time.fixedDeltaTime, 0);
         this.transform.Rotate(0, 0, -currentDirection);
+
+        Vector3 movement = transform.position - oldPosition;
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
         rb.MovePosition(transform.position);
     }
