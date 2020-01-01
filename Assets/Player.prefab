@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8855331966545942818}
   - component: {fileID: 8855331966545942817}
   - component: {fileID: 8855331966545942816}
-  - component: {fileID: 8855331966545942823}
   - component: {fileID: 8855331966545942829}
   - component: {fileID: 8855331966545942819}
   - component: {fileID: 8855331966545942831}
@@ -19,6 +18,8 @@ GameObject:
   - component: {fileID: 8855331966545942822}
   - component: {fileID: 8855331966545942830}
   - component: {fileID: 8855331966545942821}
+  - component: {fileID: 5595029088743364993}
+  - component: {fileID: 7074568634326628404}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -112,21 +113,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8855331966545942823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8855331966545942820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 818406d54bde1a842baa9fc7f9a8b930, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  rb: {fileID: 8855331966545942816}
-  animator: {fileID: 8855331966545942829}
 --- !u!95 &8855331966545942829
 Animator:
   serializedVersion: 3
@@ -137,7 +123,7 @@ Animator:
   m_GameObject: {fileID: 8855331966545942820}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d1248dc162b8d9b43966b407065a6e4d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7961cf5c7643d614191889a509a92e7e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -245,6 +231,44 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8855331966545942820}
   m_Enabled: 1
+--- !u!114 &5595029088743364993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855331966545942820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75dfdd0b698117b498865962e92fbbb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  inventory: {fileID: 0}
+  Hud: {fileID: 0}
+--- !u!114 &7074568634326628404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855331966545942820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Sourd/Acouphene
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 40
 --- !u!1 &8855331966781657528
 GameObject:
   m_ObjectHideFlags: 0
