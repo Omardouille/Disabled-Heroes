@@ -14,6 +14,11 @@ public class questWarrior : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (collision.CompareTag("Coin")){
+            collision.gameObject.SetActive(false);
+            questComplete = true;
+        }
+
         if (collision.CompareTag("Player") && questComplete)
         {
             Vector3 tmp = transform.position;

@@ -8,8 +8,14 @@ public class spawner : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        foreach(GameObject ennemy in ennemies){
-            ennemy.SetActive(true);
+
+        if (collision.CompareTag("Player"))
+        {
+            foreach (GameObject ennemy in ennemies)
+            {
+                ennemy.SetActive(true);
+            }
+            gameObject.SetActive(false);
         }
 
     }
