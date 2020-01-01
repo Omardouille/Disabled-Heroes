@@ -121,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8855331966545942820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89cc8c87ea939154b8ac38d946b77ae9, type: 3}
+  m_Script: {fileID: 11500000, guid: 818406d54bde1a842baa9fc7f9a8b930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
@@ -175,6 +175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistanceBeforeHearing: 10
+  isSourd: 0
+  retryTimeSourd: 5
+  randomSourd: 4
 --- !u!114 &8855331966545942828
 MonoBehaviour:
   m_ObjectHideFlags: 0

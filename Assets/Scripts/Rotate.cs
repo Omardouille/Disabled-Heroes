@@ -15,8 +15,16 @@ public class Rotate : MonoBehaviour
 	public float maxDistance = (float)5;
 	
 	void Fire() {
-		if(isAttached)
+		if (isAttached)
+		{
+			GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+			GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 0);
 			GetComponent<FMODUnity.StudioEventEmitter>().Play();
+		}
+		else
+        {
+			GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+		}
 		isAttached = !isAttached;
 	}
 
@@ -34,7 +42,7 @@ public class Rotate : MonoBehaviour
     {
 
 		if(isAttached) {
-			GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+			//GetComponent<FMODUnity.StudioEventEmitter>().Stop();
 			this.transform.position = attached.transform.position;
 			rotation += speed_rotate*Time.fixedDeltaTime;
 			this.transform.Rotate(0,0,rotation);
@@ -50,6 +58,7 @@ public class Rotate : MonoBehaviour
 		}
 
 		if(distance > maxDistance) {
+			GetComponent<FMODUnity.StudioEventEmitter>().Stop();
 			isAttached = true;
         }
 		
@@ -64,8 +73,12 @@ public class Rotate : MonoBehaviour
 			return;
 
         switch(other.gameObject.tag) {
-			case "Enemy": other.gameObject.GetComponent<EnemiBehavior>().isTouched();  break;
-			case "Wall": isAttached = true; break;
+			case "Enemy":
+				GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 2);
+				other.gameObject.GetComponent<EnemiBehavior>().isTouched(); isAttached = true; break;
+			case "Wall":
+				GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 1);
+				isAttached = true; break;
 			default: break;
 		}
 
