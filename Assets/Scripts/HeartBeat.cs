@@ -71,7 +71,7 @@ public class HeartBeat : MonoBehaviour
         }
         // On va regarder si y a un ennemi proche
         // On garde la plus petite distance aussi
-        float minDistance = maxDistanceBeforeHearing+1;
+        float minDistance = maxDistanceBeforeHearing + 1;
         foreach (GameObject Enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             float distance = Vector3.Distance(Enemy.transform.position, transform.position);
