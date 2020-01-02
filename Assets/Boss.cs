@@ -10,6 +10,8 @@ public class Boss : MonoBehaviour
     GameObject playerFollow = null;
     public Animator animator;
     public int nbvie = 3; // on a max 3 vie et après ça descend
+    public GameObject Player;
+    public float distancePB = 20.0f;
 
 
     public Rigidbody2D rb;
@@ -52,6 +54,16 @@ public class Boss : MonoBehaviour
         else
         {
             transform.Find("jauge").gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+        }
+
+        if(Player != null)
+        {
+            float dist = Vector3.Distance(Player.transform.position, transform.position);
+            if(dist <= distancePB)
+            {
+                GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Intensite", (dist/ distancePB));
+                Debug.Log((dist / distancePB));
+            }
         }
 
 
@@ -101,6 +113,7 @@ public class Boss : MonoBehaviour
     {
         if (currentState == States.Patrolling && collider.gameObject.tag == "Player")
         {
+            GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("music", 1);
             currentState = States.Attak;
             playerFollow = collider.gameObject;
         }
@@ -111,6 +124,7 @@ public class Boss : MonoBehaviour
     {
         if (currentState == States.Attak && collider.gameObject.tag == "Player")
         {
+            GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("music", 0);
             currentState = States.Patrolling;
             playerFollow = null;
         }
@@ -137,6 +151,7 @@ public class Boss : MonoBehaviour
 
     public void OnDestroy()
     {
+        Player.transform.Find("Musique").gameObject.GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("music", 0);
         GetComponents<FMODUnity.StudioEventEmitter>()[0].Stop();
     }
 }
