@@ -90,7 +90,7 @@ public class HeartBeat : MonoBehaviour
         {
             playSound = false;
             GetComponents<FMODUnity.StudioEventEmitter>()[0].SetParameter("Silence", 1);
-            GetComponents<FMODUnity.StudioEventEmitter>()[1].SetParameter("Silence", 0);
+            //GetComponents<FMODUnity.StudioEventEmitter>()[1].SetParameter("Silence", 0);
 
         }
 

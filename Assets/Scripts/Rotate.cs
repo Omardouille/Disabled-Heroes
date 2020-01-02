@@ -76,6 +76,14 @@ public class Rotate : MonoBehaviour
 			case "Enemy":
 				GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 2);
 				other.gameObject.GetComponent<EnemiBehavior>().isTouched(); isAttached = true; break;
+			case "Boss":
+
+				other.gameObject.GetComponent<Boss>().isTouched(); isAttached = true;
+				if (other.gameObject.GetComponent<Boss>().nbvie >= 1)
+					GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 1); 
+				else
+					GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 2);
+				break;
 			case "Wall":
 				GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("ProjectileSound", 1);
 				isAttached = true; break;
