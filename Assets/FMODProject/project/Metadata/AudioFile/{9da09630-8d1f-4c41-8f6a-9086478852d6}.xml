@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9da09630-8d1f-4c41-8f6a-9086478852d6}">
+		<property name="assetPath">
+			<value>4_SoundfontTitanicGMGSv.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>50.004172335600906</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{985a8753-3898-47a7-9250-13af441b680d}</destination>
+		</relationship>
+	</object>
+</objects>
