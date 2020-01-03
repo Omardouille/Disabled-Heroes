@@ -5,7 +5,6 @@ using UnityEngine;
 public class GirlMovement : MonoBehaviour
 {
     public float moveSpeed;
-    public GameObject msgBox;
 
     private bool isReadyToWalk;
     private Rigidbody2D rb; 
@@ -69,21 +68,5 @@ public class GirlMovement : MonoBehaviour
     int newState()
     {
         return Random.Range(0, 2);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            msgBox.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            msgBox.SetActive(false);
-        }
     }
 }

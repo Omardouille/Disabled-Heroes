@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Bavardeur : MonoBehaviour
 {
@@ -9,34 +10,41 @@ public class Bavardeur : MonoBehaviour
     public GameObject msgBox;
     public Vector2 offset;
 
+    private bool isPlayerEnter;
+    private TextMeshProUGUI textMesh;
     private Transform owner;
 
-    private void Start()
+    void Start()
     {
         owner = gameObject.GetComponentInParent<Transform>();
-        Debug.Log("Owner position : " + owner.position);
+        textMesh = msgBox.GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    private void Update()
+    void Update()
     {
         if (msgBox)
         {
             msgBox.transform.position = Camera.main.WorldToScreenPoint(owner.position) + new Vector3(offset.x, offset.y, 0) ;
-        }
+        } 
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {            
-            Text text = msgBox.GetComponentInChildren<Text>();
-            text.text = rumeures[Random.Range(0, rumeures.Count)];
-            StartCoroutine("wait");
+        {
+            msgBox.SetActive(true);
+            isPlayerEnter = true;
+            //msgBox.GetComponentInChildren<Text>().text = rumeures[Random.Range(0, rumeures.Count)];
+            textMesh.SetText(rumeures[Random.Range(0, rumeures.Count)]);
         }
     }
 
-    IEnumerable wait()
+    void OnTriggerExit2D(Collider2D collision)
     {
-        yield return new WaitForSeconds(1.0f);
+        msgBox.SetActive(false);
+        if (collision.CompareTag("Player"))
+        {
+            isPlayerEnter = false;
+        }
     }
 }
