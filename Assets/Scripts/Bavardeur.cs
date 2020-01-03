@@ -35,7 +35,10 @@ public class Bavardeur : MonoBehaviour
             msgBox.SetActive(true);
             isPlayerEnter = true;
             //msgBox.GetComponentInChildren<Text>().text = rumeures[Random.Range(0, rumeures.Count)];
-            textMesh.SetText(rumeures[Random.Range(0, rumeures.Count)]);
+            if (rumeures.Count > 0)
+            {
+                textMesh.SetText(rumeures[Random.Range(0, rumeures.Count)]);
+            }
         }
     }
 
