@@ -7,6 +7,15 @@ TagManager:
   - Wall
   - Enemy
   - Coin
+  - Animal
+  - Flower
+  - Epice
+  - Miel
+  - Cactus
+  - Saphire
+  - Score
+  - InGameUI
+  - GameStopUI
   - Boss
   layers:
   - Default
