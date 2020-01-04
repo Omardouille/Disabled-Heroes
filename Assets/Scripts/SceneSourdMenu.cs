@@ -14,28 +14,17 @@ public class SceneSourdMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nextLevelButton.onClick.AddListener(delegate { nextLevel(nextLevelName); });
+        nextLevelButton.onClick.AddListener(delegate { SceneManager.LoadScene(1); });
         exitButton.onClick.AddListener(exit);
-        mainMenuButton.onClick.AddListener(switchToMainMenu);
+        mainMenuButton.onClick.AddListener(delegate { SceneManager.LoadScene("Menu"); });
         for (int i = 0; i < transform.childCount; ++i)
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }
     }
 
-    void nextLevel(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
-
     void exit()
     {
         Application.Quit();
-    }
-
-    void switchToMainMenu()
-    {
-        // TODO
-        Debug.Log("Need to develop.");
     }
 }
