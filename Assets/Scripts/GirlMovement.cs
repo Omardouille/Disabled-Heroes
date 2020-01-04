@@ -11,6 +11,7 @@ public class GirlMovement : MonoBehaviour
     private int state;
     private int direction;
     private Animator animator;
+    private bool m_has_saphire;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class GirlMovement : MonoBehaviour
         // 0 - idle, 1 - walk
         state = 0;
         direction = -1;
+        m_has_saphire = false;
     }
 
     // Update is called once per frame
@@ -68,5 +70,10 @@ public class GirlMovement : MonoBehaviour
     int newState()
     {
         return Random.Range(0, 2);
+    }
+
+    public void SetHasSaphire(bool state)
+    {
+        m_has_saphire = state;
     }
 }

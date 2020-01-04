@@ -8,6 +8,14 @@ TagManager:
   - Enemy
   - Coin
   - Animal
+  - Flower
+  - Epice
+  - Miel
+  - Cactus
+  - Saphire
+  - Score
+  - InGameUI
+  - GameStopUI
   layers:
   - Default
   - TransparentFX
