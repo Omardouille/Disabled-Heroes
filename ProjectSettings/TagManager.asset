@@ -16,6 +16,7 @@ TagManager:
   - Score
   - InGameUI
   - GameStopUI
+  - Boss
   layers:
   - Default
   - TransparentFX
