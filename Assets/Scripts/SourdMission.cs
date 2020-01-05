@@ -115,6 +115,7 @@ public class SourdMission : MonoBehaviour
     public void SetSourd(bool state)
     {
         m_is_sourd = state;
+		GameObject.Find("Player").GetComponent<HeartBeat>().isSourd = state;
     }
 
     public bool isSourd()

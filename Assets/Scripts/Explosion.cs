@@ -33,6 +33,7 @@ public class Explosion : MonoBehaviour
     {
         obj.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -1 * explosionForce));
         m_animator.Play("Explosion");
+		GetComponent<FMODUnity.StudioEventEmitter>().Play();
         Destroy(GetComponent<CircleCollider2D>());
         yield return new WaitForSeconds(0.5f);
         if (toBeRemoved.Length > 0)
