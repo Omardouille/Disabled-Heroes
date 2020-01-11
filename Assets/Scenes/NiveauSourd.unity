@@ -4478,7 +4478,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &604403376
 PrefabInstance:
@@ -23281,7 +23281,7 @@ PrefabInstance:
     - target: {fileID: 2579358296257223783, guid: 98d19c4985431ae4e82a08c9ffa93190,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2579358296257223783, guid: 98d19c4985431ae4e82a08c9ffa93190,
         type: 3}
@@ -53227,7 +53227,7 @@ Tilemap:
       - {fileID: 2609072988545560573, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 786661062723731931, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 3767041631652516261, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12
+      m_AnimationSpeed: 12.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -134172,6 +134172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855331966545942831, guid: 34aa5565091b57642b2691fef13c67b9,
+        type: 3}
+      propertyPath: randomSourd
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8855331966781657529, guid: 34aa5565091b57642b2691fef13c67b9,
         type: 3}

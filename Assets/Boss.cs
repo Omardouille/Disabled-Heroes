@@ -11,7 +11,7 @@ public class Boss : MonoBehaviour
     public Animator animator;
     public int nbvie = 3; // on a max 3 vie et après ça descend
     public GameObject Player;
-    public float distancePB = 20.0f;
+    public float distancePB = 10.0f;
 
 
     public Rigidbody2D rb;
@@ -61,8 +61,8 @@ public class Boss : MonoBehaviour
             float dist = Vector3.Distance(Player.transform.position, transform.position);
             if(dist <= distancePB)
             {
-                GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Intensite", (dist/ distancePB));
-                Debug.Log((dist / distancePB));
+                GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Intensite", 1-(dist/ distancePB));
+				Debug.Log(1-(dist/ distancePB));
             }
         }
 
