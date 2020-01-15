@@ -64,7 +64,24 @@ public class DHMarchalController : MonoBehaviour
         }
         else if(nbvie == 0)
         {
-            Debug.Log("On est mort !");
+            //Debug.Log("On est mort !");
+            GameObject[] inGameUIObjs = GameObject.FindGameObjectsWithTag("InGameUI");
+            if (inGameUIObjs.Length >= 0)
+            {
+                foreach (GameObject obj in inGameUIObjs)
+                {
+                    obj.SetActive(false);
+                }
+            }
+
+            GameObject gameOver = GameObject.FindGameObjectWithTag("GameOver");
+            if (gameOver)
+            {
+                for (int i = 0; i < gameOver.transform.childCount; ++i)
+                {
+                    gameOver.transform.GetChild(i).gameObject.SetActive(true);
+                }
+            }
         } else
         {
             transform.Find("jauge").gameObject.GetComponent<SpriteRenderer>().color = Color.green;
