@@ -37,6 +37,7 @@ public class DHMarchalController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		
         if (m_item_to_pickup != null && Input.GetKeyDown(KeyCode.F))
         {
             inventory.AddItem(m_item_to_pickup);

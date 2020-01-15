@@ -85723,7 +85723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rerty
+  m_Text: Retry
 --- !u!222 &1758251423
 CanvasRenderer:
   m_ObjectHideFlags: 0

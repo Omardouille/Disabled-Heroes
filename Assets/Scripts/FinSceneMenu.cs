@@ -14,9 +14,9 @@ public class FinSceneMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nextLevelButton.onClick.AddListener(delegate { SceneManager.LoadScene(nextLevelName);  });
-        exitButton.onClick.AddListener(exit);
-        mainMenuButton.onClick.AddListener(delegate { SceneManager.LoadScene("Menu"); });
+        nextLevelButton.onClick.AddListener(delegate { SceneManager.LoadScene(nextLevelName);		StaticCode.stopAllMusic();  });
+        exitButton.onClick.AddListener(delegate { exit();		StaticCode.stopAllMusic();  });
+        mainMenuButton.onClick.AddListener(delegate { SceneManager.LoadScene("Menu"); StaticCode.stopAllMusic(); });
         for (int i = 0; i < transform.childCount; ++i)
         {
             transform.GetChild(i).gameObject.SetActive(false);

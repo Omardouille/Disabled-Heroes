@@ -62,7 +62,7 @@ public class Boss : MonoBehaviour
             if(dist <= distancePB)
             {
                 GameObject.Find("Musique").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Intensite", 1-(dist/ distancePB));
-				Debug.Log(1-(dist/ distancePB));
+				//Debug.Log(1-(dist/ distancePB));
             }
         }
 
