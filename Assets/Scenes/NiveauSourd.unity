@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rerty
+  m_Text: Retry
 --- !u!222 &997593
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3260,7 +3260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rumers:
-  - "C'est pas vous qui a vol\xE9 notre stock de miel et notre figue de berb\xE8re
+  - "Ce n'est pas vous qui avez vol\xE9 notre stock de miel et notre figue de Barbarie
     !"
   - "S'ocg kuc beac wyu u ber\xE9 meglo cgesp jo nyuor og meglo hyutao jo volv\xE8lo
     !"
@@ -4628,7 +4628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rumers:
-  - "T'as besoin d'expliquer \xE0 notre chef. Traversez la f\xF4ret..."
+  - "Tu as besoin d'expliquer \xE0 notre chef. Traversez la f\xF4ret..."
   - "G'uc voceyum j'ozkryuwol \xE0 meglo seoh. Glubolcox ru h\xF4log..."
   msgBox: {fileID: 1138453111}
   offset: {x: 40, y: 40}
@@ -47202,7 +47202,7 @@ Tilemap:
       - {fileID: 6458888305110019973, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 8948392159441367952, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: -177433640340726496, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12
+      m_AnimationSpeed: 12.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 37, y: -25, z: 0}
@@ -47265,7 +47265,7 @@ Tilemap:
       - {fileID: 2609072988545560573, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 786661062723731931, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 3767041631652516261, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -50237,7 +50237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rumers:
-  - "Bien jou\xE9 !!! Un jour, nous serons des millionaires !!!"
+  - "Bien jou\xE9 !!! Un jour, nous serons millionnaires !!!"
   - "Vyuom dea\xE9 !!! Am deal, meac colemc joc nyurayuemuyuloc !!!"
   msgBox: {fileID: 1345853329}
   offset: {x: 40, y: 40}
@@ -53892,7 +53892,7 @@ Tilemap:
       - {fileID: 6458888305110019973, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 8948392159441367952, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: -177433640340726496, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: -10, z: 0}
@@ -53910,7 +53910,7 @@ Tilemap:
       - {fileID: 4004281259696749343, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: -7094706151804796494, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 6685364437774070645, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12
+      m_AnimationSpeed: 12.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: -9, z: 0}
@@ -134887,15 +134887,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rumers:
-  - "Bienvenue, Marchal. C'est Manel. Tu sais que les filles aiment bien les saphire,
+  - "Bienvenue, Marchal. C'est Manel. Tu sais que les filles aiment bien les saphires,
     n'est-ce pas ? Fais un peu plus d'effort ! Je t'attends !!! Il y a toujous les
     meilleures choses dans le ch\xE2teau !!!"
   - "Vyuombomao, Nulseur. S'ocg Numor. Ga cuyuc wo roc hyuraoc uyunomg vyuom roc cukfyulo,
     m'ocg-so kuc ? Huyuc am koa krac j'ohhelg ! Do g'uggomjc !!! Yur i u geadeac roc
     noyuraoaloc jo seecoc jumc ro se\xE2goua !!!"
   rumersAvecSpahire:
-  - Tu dois finir les autres missions des animals !!!
-  - Tu dois finir les autres missions des animals !!!
+  - Tu dois finir les autres missions des animaux !!!
+  - Tu dois finir les autres missions des animaux !!!
   msgBox: {fileID: 1573373931}
   offset: {x: 80, y: 80}
   doSpeakAnimalLang: 0
