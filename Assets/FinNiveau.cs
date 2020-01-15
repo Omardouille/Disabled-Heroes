@@ -20,7 +20,9 @@ public class FinNiveau : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("Fin du niveau");
+            //Debug.Log("Fin du niveau");
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
 
             GameObject[] inGameUIObjs = GameObject.FindGameObjectsWithTag("InGameUI");
             if (inGameUIObjs.Length >= 0)
