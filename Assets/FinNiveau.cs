@@ -21,6 +21,23 @@ public class FinNiveau : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Fin du niveau");
+            GameObject[] inGameUIObjs = GameObject.FindGameObjectsWithTag("InGameUI");
+            if (inGameUIObjs.Length >= 0)
+            {
+                foreach (GameObject obj in inGameUIObjs)
+                {
+                    obj.SetActive(false);
+                }
+            }
+
+            GameObject successMenu = GameObject.FindGameObjectWithTag("GameStopUI");
+            if (successMenu)
+            {
+                for (int i = 0; i < successMenu.transform.childCount; ++i)
+                {
+                    successMenu.transform.GetChild(i).gameObject.SetActive(true);
+                }
+            }
         }
     }
 }

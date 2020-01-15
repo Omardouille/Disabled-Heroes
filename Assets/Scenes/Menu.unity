@@ -389,9 +389,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 85488241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 949cc37859c56f14db2b6b3b2dd56d88, type: 3}
+  m_Script: {fileID: 11500000, guid: 27b855b59ad214e42b2d50c7a6ab860f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quitButton: {fileID: 0}
+  levelsButton: {fileID: 0}
+  backButton: {fileID: 0}
+  mainPanel: {fileID: 0}
+  levelsPanel: {fileID: 0}
+  levelButtons: []
+  levelNames: []
 --- !u!114 &85488244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,9 +682,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 178835492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 949cc37859c56f14db2b6b3b2dd56d88, type: 3}
+  m_Script: {fileID: 11500000, guid: 27b855b59ad214e42b2d50c7a6ab860f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quitButton: {fileID: 0}
+  levelsButton: {fileID: 0}
+  backButton: {fileID: 0}
+  mainPanel: {fileID: 0}
+  levelsPanel: {fileID: 0}
+  levelButtons: []
+  levelNames: []
 --- !u!114 &178835495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,9 +1143,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 604988507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 949cc37859c56f14db2b6b3b2dd56d88, type: 3}
+  m_Script: {fileID: 11500000, guid: 27b855b59ad214e42b2d50c7a6ab860f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quitButton: {fileID: 0}
+  levelsButton: {fileID: 0}
+  backButton: {fileID: 0}
+  mainPanel: {fileID: 0}
+  levelsPanel: {fileID: 0}
+  levelButtons: []
+  levelNames: []
 --- !u!1 &761715771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,8 +1260,8 @@ MonoBehaviour:
   - {fileID: 135536832}
   - {fileID: 251661277}
   levelNames:
-  - Level2
   - Marchal
+  - NiveauDaltonien
   - NiveauAveugle
   - NiveauSourd
 --- !u!1 &854876025
