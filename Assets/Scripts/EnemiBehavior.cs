@@ -106,7 +106,8 @@ public class EnemiBehavior : MonoBehaviour
 
     private void changeDirection()
     {
-        currentDirection += Random.Range(0.0f, 90.0f) + 180f;
+        currentDirection += Random.Range(0.0f, 90.0f) + 180.0f;
+		currentDirection = currentDirection % 360.0f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -115,6 +116,11 @@ public class EnemiBehavior : MonoBehaviour
         {
             GameObject.Find("Player").GetComponent<DHMarchalController>().nbvie--;
         }
+        changeDirection(); 
+    }
+	
+	private void OnCollisionStay2D(Collision2D collision)
+    {
         changeDirection(); 
     }
 
