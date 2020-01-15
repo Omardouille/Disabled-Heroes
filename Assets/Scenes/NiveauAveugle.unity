@@ -1314,9 +1314,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4361ff961216ae54bae27c8ec461171b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Apr\xE8s un autre accident, je suis devenu malvoyant. Malgr\xE9 \xE7a
-    je dois quand m\xEAme sortir de ce labyrinthe. Je devrais me fier \xE0 mes autres
-    sens.."
+  message: "Gr\xE2ce au fruit je suis gu\xE9ri mais je suis devenu malvoyant. Malgr\xE9
+    \xE7a je dois quand m\xEAme sortir de ce labyrinthe. Je devrais me fier \xE0 mes
+    autres sens.."
   messagePanel: {fileID: 38133717}
 --- !u!212 &595928030
 SpriteRenderer:
@@ -11160,12 +11160,12 @@ PrefabInstance:
     - target: {fileID: 7903171113005342892, guid: 42b0889c58fbc3b47a4b90d5c1e98536,
         type: 3}
       propertyPath: speed
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7903171113005342892, guid: 42b0889c58fbc3b47a4b90d5c1e98536,
         type: 3}
       propertyPath: speed_rotate
-      value: 200
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7903171113005342895, guid: 42b0889c58fbc3b47a4b90d5c1e98536,
         type: 3}
