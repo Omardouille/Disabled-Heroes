@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DHMarchalController : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class DHMarchalController : MonoBehaviour
     private IInventoryItem m_item_to_pickup = null;
     private bool m_lock_pickup = false;
     public int nbvie = 3; // on a max 3 vie et après ça descend
+
+    private void Awake()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +44,13 @@ public class DHMarchalController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		
-        if (m_item_to_pickup != null && Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+            StaticCode.stopAllMusic();
+        }
+
+            if (m_item_to_pickup != null && Input.GetKeyDown(KeyCode.F))
         {
             inventory.AddItem(m_item_to_pickup);
             Hud.CloseMessagePanel();
