@@ -3468,7 +3468,7 @@ RectTransform:
   m_GameObject: {fileID: 337722986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 23.083982, y: 20.499706, z: 1}
   m_Children: []
   m_Father: {fileID: 173689047}
   m_RootOrder: 0
@@ -24987,7 +24987,7 @@ RectTransform:
   m_GameObject: {fileID: 1176856232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 20.879, y: 20.564, z: 1}
   m_Children: []
   m_Father: {fileID: 92327962}
   m_RootOrder: 0
@@ -47229,7 +47229,7 @@ Tilemap:
       - {fileID: 5914100215880868627, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 9091647412339028334, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 8440168392687439353, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 37, y: -24, z: 0}
@@ -53919,7 +53919,7 @@ Tilemap:
       - {fileID: 5914100215880868627, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 9091647412339028334, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 8440168392687439353, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: -9, z: 0}
@@ -53928,7 +53928,7 @@ Tilemap:
       - {fileID: -8039064624741313902, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 14683392635615614, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 5625320603513752710, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: -8, z: 0}
@@ -53955,7 +53955,7 @@ Tilemap:
       - {fileID: 2609072988545560573, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 786661062723731931, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
       - {fileID: 3767041631652516261, guid: d4acf62ab7e60cc419ef4929acd40069, type: 3}
-      m_AnimationSpeed: 12
+      m_AnimationSpeed: 12.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
